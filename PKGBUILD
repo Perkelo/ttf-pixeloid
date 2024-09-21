@@ -2,14 +2,14 @@
 
 pkgname=ttf-pixeloid
 pkgver=1.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Pixeloid Font"
 arch=(any)
 license=('custom:OFL')
 depends=(fontconfig xorg-font-utils)
 url="https://www.fontspace.com/pixeloid-font-f69232"
 source=("pixeloid-font.zip::https://get.fontspace.co/download/family/mqz2e/acb0f928cbd14958935d2f02d7a6fa9a/pixeloid-font.zip")
-sha256sums=('1fd3526d6258cf63622adb1548024b28ed7de109e56b5e7b510af365474ee9e8')
+sha256sums=('6ab35e5da6d2da27b2e751250c4d03c97cf3e7038fe673b15fc0bb54dc72db4c')
 install=$pkgname.install
 
 package() {
